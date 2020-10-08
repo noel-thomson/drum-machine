@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "arial";
+  #root {
+    #drum-machine {
+      height: 100vh;
+      background: #393939;
+      #display {
+        color: #dfe6e9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 45%;
+        font-size: 50px;
+        word-wrap: break-word;
+        text-align: center;
+        header {
+          margin-top: 40px;
+          h4 {
+            margin: 0;
+            color: #ca5019;
+            text-shadow: -1px 2px 2px black;
+          }
+        }
+        h1 {
+          text-shadow: -1px 2px 2px black;
+        }
+      }
+      #drum-pads {
+        display: flex;
+        border: 1px solid black;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+    }
+    footer {
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100vw;
+      text-align: center;
+      p {
+        font-size: 12.5px;
+      }
+    }
+  }
+}
