@@ -15,7 +15,7 @@ export default [
     src: "https://freesound.org/data/previews/278/278983_4351954-lq.mp3",
   },
   {
-    id: "tom tom",
+    id: "tom",
     letter: "F",
     src: "https://freesound.org/data/previews/520/520168_1478679-lq.mp3",
   },

@@ -24,3 +24,13 @@
     font-size: 40px;
   }
 }
+@media screen and (max-width: 425px) {
+  .drum-pad {
+    height: 175px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .drum-pad {
+    height: 150px;
+  }
+}

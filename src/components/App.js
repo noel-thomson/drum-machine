@@ -32,7 +32,7 @@ class App extends React.Component {
           ))}
         </div>
         <footer>
-          <p>&copy; Noel Thomson 2020</p>
+          <p>&copy; 2020 Noel Thomson</p>
         </footer>
       </div>
     );
